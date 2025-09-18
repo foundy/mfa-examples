@@ -4,7 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/myapp"
+      "path": "./apps/host1"
+    },
+    {
+      "path": "./apps/host2"
+    },
+    {
+      "path": "./apps/remote1"
+    },
+    {
+      "path": "./apps/remote2"
     }
   ]
 }

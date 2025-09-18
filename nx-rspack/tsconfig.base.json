@@ -16,6 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@nx-rspack/source"]
+    "customConditions": ["@nx-rspack/source"],
+    "baseUrl": ".",
+    "paths": {
+      "remote1/Module": ["apps/remote1/src/remote-entry.ts"],
+      "remote2/Module": ["apps/remote2/src/remote-entry.ts"]
+    }
   }
 }
